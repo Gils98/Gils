@@ -1,0 +1,1 @@
+const nav=document.querySelector('.navbar');window.addEventListener('scroll',()=>{nav.style.boxShadow=window.scrollY>30?'0 10px 35px rgba(0,0,0,.35)':'none';});
